@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    /* Ambiente moderno (Vite) */
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    /* React */
+    "jsx": "react-jsx",
+
+    /* Qualidade */
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* Imports */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
+    /* Compatibilidade Vite */
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+
+    /* Tipos globais */
+    "types": ["vite/client"]
+  },
+
+  "include": ["src"]
+}
