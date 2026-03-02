@@ -1,24 +1,32 @@
+/* ===== Google Fonts ===== */
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&display=swap');
 
+/* ===== Fontes locais Etrusco ===== */
+
+/* Condensed Bold */
 @font-face {
-  font-family: 'EtruscoNowCondensed:Bold';
-  src: url('https://fonts.cdnfonts.com/s/93488/EtruscoNow-CondensedBold.woff2') format('woff2');
+  font-family: "EtruscoNowCondensed";
+  src: url("/fonts/italiantype-etrusconowcondensed-bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'EtruscoNow:Medium';
-  src: url('https://fonts.cdnfonts.com/s/93488/EtruscoNow-Medium.woff2') format('woff2');
+  font-family: "EtruscoNow";
+  src: url("/fonts/italiantype-etrusconow-medium.otf") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
+
 }
 
-/* Fallback font configuration */
+/* ===== Variáveis CSS para facilitar uso ===== */
 :root {
-  --font-etrusco-condensed: 'EtruscoNowCondensed:Bold', 'Bebas Neue', 'Oswald', 'Arial Narrow', 'Arial Black', sans-serif;
-  --font-etrusco-medium: 'EtruscoNow:Medium', 'Oswald', 'Arial', sans-serif;
+  --font-etrusco-condensed: "EtruscoNowCondensed", sans-serif;
+  --font-etrusco-medium: "EtruscoNow", sans-serif;
+
+  --font-urbanist: "Urbanist", sans-serif;
+  --font-bebas: "Bebas Neue", "Oswald", sans-serif;
 }
